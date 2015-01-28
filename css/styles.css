@@ -1,0 +1,138 @@
+/* line 5, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  /*GothamBlack*/
+  font-family: 'GothamBlack';
+  src: url("../fonts/GothamBlack.eot");
+  src: local("../GothamBlack"), url("../fonts/GothamBlack.woff") format("woff"), url("../fonts/GothamBlack.ttf") format("truetype"); }
+@font-face {
+  /*GothamExLight*/
+  font-family: 'GothamExLight';
+  src: url("../fonts/GothamExLight.eot");
+  src: local("../GothamExLight"), url("../fonts/GothamExLight.woff") format("woff"), url("../fonts/GothamExLight.ttf") format("truetype"); }
+@font-face {
+  /*GothamMedium*/
+  font-family: 'GothamMedium';
+  src: url("../fonts/GothamMedium.eot");
+  src: local("../GothamMedium"), url("../fonts/GothamMedium.woff") format("woff"), url("../fonts/GothamMedium.ttf") format("truetype"); }
+/* line 4, ../componentes/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lobster", cursive, Arial, serif;
+  font-weight: normal; }
+
+/* line 10, ../componentes/sass/_base.scss */
+h1 {
+  font-size: 2.2rem; }
+
+/* line 14, ../componentes/sass/_base.scss */
+h2 {
+  font-size: 1.5rem;
+  line-height: 100%; }
+
+/* line 19, ../componentes/sass/_base.scss */
+h3 {
+  font-size: 1.4rem; }
+
+/* line 23, ../componentes/sass/_base.scss */
+a {
+  text-decoration: none; }
+
+/* line 29, ../componentes/sass/_base.scss */
+p {
+  font-family: Arial, Helvetica, _sans; }
+
+/* line 5, ../componentes/sass/_layout.scss */
+header, footer {
+  background-color: rgba(255, 255, 255, 0.8) !important; }
+
+/* line 8, ../componentes/sass/_layout.scss */
+header {
+  height: 122px; }
+  /* line 10, ../componentes/sass/_layout.scss */
+  header div h3 {
+    display: block;
+    float: left;
+    font-size: 2em;
+    color: #78808D;
+    margin-top: 40px;
+    margin-left: 42px; }
+  /* line 18, ../componentes/sass/_layout.scss */
+  header img[src$="logo.png"] {
+    display: block;
+    float: right;
+    width: 80px;
+    margin-top: 20px; }
+
+/* line 26, ../componentes/sass/_layout.scss */
+section#firstpage {
+  background: url(../images/fundo_firstpage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 39, ../componentes/sass/_layout.scss */
+section#secondpage div.ui-content h3, section#secondpage div.ui-content p {
+  text-align: center !important; }
+/* line 42, ../componentes/sass/_layout.scss */
+section#secondpage div.ui-content h3 {
+  font-size: 3rem !important;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+/* line 47, ../componentes/sass/_layout.scss */
+section#secondpage div.ui-content p {
+  font-style: italic !important; }

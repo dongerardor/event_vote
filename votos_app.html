@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Votos app</title>
+  <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.2.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  
+  <section id="firstpage" data-role="page">
+      <header data-role="header">
+        <img src="images/logo.png">
+        <div>
+          <h3>Si-o-No?</h3>
+        </div>
+      </header>
+      <div class="ui-content">
+        <form id="form_login" method="get" action="">
+          <label for="username">Digite su nombre:</label>
+          <input type="text" name="address" id="address" value="" placeholder="Digite su nombre"/>
+          <a id="btn1" class="ui-btn" href="#secondpage">ENTRAR</a>
+      </div>
+      <footer data-role="footer" data-position="fixed"><h2>Votá a favor o en contra</h2></footer>
+  </section>
+
+  <section id="secondpage" data-role="page" data-theme="a">
+     <header data-role="header">
+      <img src="images/logo.png">
+      <div>
+        <h3>Si-o-No?</h3>
+      </div>
+    </header>
+    <div class="ui-content">
+      <ul>
+        <a href="#thirdpage"><li class="ui-btn ui-icon-check ui-btn-icon-right">Conectado al servidor</li></a>
+      </ul>
+      <h3>Esperando una premisa...</h3>
+      <p>Espere a que aparezca alguna premisa para votarla</p>
+
+    </div>
+    <footer data-role="footer" data-position="fixed"><h2>Votá a favor o en contra</h2></footer>
+  </section>
+
+  <section id="thirdpage" data-role="page" data-theme="a">
+    <header data-role="header">
+      <img src="images/logo.png">
+      <div>
+        <h3>Si-o-No?</h3>
+      </div>
+      </header>
+      <div class="ui-content">
+        <p>Tiempo restante: 38segundos</p>
+        <h3>Aqui va la premisa: es verdad que a Suárez no lo quieren en el Barça?</h3>
+        <button>SI</button>
+        <button>NO</button>
+        <p>Resultado hasta ahora: X</p>
+      </div>
+      <footer data-role="footer" data-position="fixed"><h2>Votá a favor o en contra</h2></footer>
+  </section>
+
+  <section id="fourthpage" data-role="page">
+      <header data-role="header">
+        <p id="tiempo_restante"><span>39</span> segundos para responder</p>
+        <img src="images/logo.png">
+      </header>
+      <div class="ui-content">
+        <h3 id="premisa">Lorem ipsum dolor sit</h3>
+        <div id="botones">
+        <button id="btn1">SI</button>
+        <button id="btn0">NO</button>
+      </div>
+      <div id="respuestas"></div>
+        <p><a href="#secondpage">Display Dialog</a></p>
+      </div>
+      <footer data-role="footer"><h2>Page Content Footer</h2></footer>
+  </section>
+
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/jquery.mobile-1.4.2.min.js"></script>
+  <script src="js/votos_app_main.js"></script> 
+
+</body>
+</html>
+
+
